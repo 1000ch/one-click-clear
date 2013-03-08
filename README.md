@@ -1,4 +1,4 @@
-OneClickClear
-=============
+#OneClickClear
 
-This can clear browser history.
+##About
+This extension provides an easy way to clear browser history.
