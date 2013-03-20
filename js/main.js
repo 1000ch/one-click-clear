@@ -7,16 +7,13 @@
 
 /**
  * general ready function
- * @param {Object} caller
  * @param {Function} callback
  */
-var ready = function(caller, callback) {
+var ready = function(callback) {
 	if(document.readyState === "complete" || document.readyState === "interactive") {
-		callback.call(caller);
+		callback();
 	} else {
-		document.addEventListener("DOMContentLoaded", function() {
-			callback.call(caller);
-		});
+		document.addEventListener("DOMContentLoaded", callback);
 	}
 };
 
@@ -48,4 +45,4 @@ OneClickClear = {
 };
 
 //when document is ready, call init
-ready(OneClickClear, OneClickClear.init);
+ready(OneClickClear.init.bind(OneClickClear));
