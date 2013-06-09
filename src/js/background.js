@@ -60,7 +60,7 @@ var HistoryAccess = {
 
 	//confirm on click, and, delete history when accepted.
 	var confirmText = 
-		"Are you sure you want to erase all history and cookie ?\n" + 
+		"Are you sure you want to erase all history?\n" + 
 		"(This action cannot be canceled)";
 	BrowserActionAccess.addClickedCallback(function(tab) {
 		if(window.confirm(confirmText)) {
