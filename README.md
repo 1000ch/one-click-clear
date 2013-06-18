@@ -18,9 +18,10 @@ Please report [issues](https://github.com/1000ch/OneClickClear/issues).
 
 ## Lisence
 
+Copyright 1000ch  
+
 This extension is made with following resource.  
-And others are MIT Lisence.  
+These lisence equivalent distribution.  
+Other resources are lisenced under the GPL Lisence version 3.  
 
 + [IcoMoon Icon Packs Free Version](http://icomoon.io/#preview-free)
-
-Copyright (c) 1000ch.net  
