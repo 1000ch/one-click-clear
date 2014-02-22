@@ -1,6 +1,6 @@
 {
 	"name": "OneClickClear",
-	"version": "0.3.1",
+	"version": "0.3.2",
 	"manifest_version": 2,
 	"description": "This extension provides an easy way to clear browser history.",
 	"permissions": ["history", "*://*/*"],
